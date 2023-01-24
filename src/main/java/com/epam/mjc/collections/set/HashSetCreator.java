@@ -16,6 +16,7 @@ public class HashSetCreator {
                     set.add(k);
                     k = k/2;
                 }
+                set.add(k);
 
             } else {
                 set.add(i);
