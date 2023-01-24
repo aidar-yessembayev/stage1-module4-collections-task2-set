@@ -14,7 +14,7 @@ public class SubsetOfSquaresCreator {
             set.add(number);
         }
 
-        NavigableSet<Integer> result = (NavigableSet<Integer>) set.subSet(lowerBound, upperBound);
+        SortedSet<Integer> result = set.subSet(lowerBound, upperBound+1);
 
         return result;
     }
